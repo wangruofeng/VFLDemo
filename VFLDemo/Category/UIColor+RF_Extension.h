@@ -10,6 +10,6 @@
 
 @interface UIColor (RF_Extension)
 
-- (UIColor *)randomColor;
++ (UIColor *)randomColor;
 
 @end

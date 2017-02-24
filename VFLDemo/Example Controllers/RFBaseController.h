@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class RFView;
+
 @interface RFBaseController : UIViewController
+
+- (RFView *)randomBgColorView;
 
 @end

@@ -43,7 +43,7 @@
                @"class":@"RFFirstController"},
              @{@"description": @"Three Views",
                @"class":@"RFSecondController"},
-             @{@"description": @"Update Contraints",
+             @{@"description": @"WebView + ToolBar",
                @"class":@"RFThirdController"}
              ];
 }

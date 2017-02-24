@@ -8,6 +8,7 @@
 
 #import "RFFirstController.h"
 #import "UIColor+RF_Extension.h"
+#import "RFView.h"
 
 @interface RFFirstController ()
 
@@ -17,22 +18,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self setUp];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setUp {
+    RFView *view1 = [self randomBgColorView];
+    RFView *view2 = [self randomBgColorView];
+    
+    [self.view addSubview:view1];
+    [self.view addSubview:view2];
+    
+    NSDictionary *views = @{@"view1":view1,
+                            @"view2":view2
+                            };
+    NSDictionary *metrics = @{@"margin":@20,
+                              @"topMargin":@(64 + 20)};
+    
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-margin-[view1]-margin-|"
+                                                                      options:0
+                                                                      metrics:metrics
+                                                                        views:views]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-margin-[view2]-margin-|"
+                                                                      options:0
+                                                                      metrics:metrics
+                                                                        views:views]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-topMargin-[view1]-margin-[view2(==view1)]-margin-|"
+                                                                      options:0
+                                                                      metrics:metrics
+                                                                        views:views]];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
