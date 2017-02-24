@@ -44,8 +44,27 @@
              @{@"description": @"Three Views",
                @"class":@"RFSecondController"},
              @{@"description": @"WebView + ToolBar",
-               @"class":@"RFThirdController"}
+               @"class": @"RFThirdController"},
+             @{@"description":@"Standard Space",
+               @"class": @"RFStandardSpaceController"},
+             @{@"description":@"Width Constraint",
+               @"class": @"RFWidthConstraintController"},
+             @{@"description":@"Connection to Superview",
+               @"class": @"RFConnectionToSuperviewController"},
+             @{@"description":@"Vertical Layout",
+               @"class": @"RFVerticalLayoutController"},
+             @{@"description":@"Flush Views",
+               @"class": @"RFFlushViewsController"},
+             @{@"description":@"Priority Controller",
+               @"class": @"RFPriorityController"},
+             @{@"description":@"Equal Widths",
+               @"class": @"RFEqualWidthsController"},
+             @{@"description":@"Multiple Predicates",
+               @"class": @"RFMultiplePredicatesController"},
+             @{@"description":@"A Complete Line of Layout",
+               @"class": @"RFCompleteLineLayoutController"}
              ];
+    
 }
 
 #pragma mark - Table view data source

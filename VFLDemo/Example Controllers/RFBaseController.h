@@ -13,5 +13,6 @@
 @interface RFBaseController : UIViewController
 
 - (RFView *)randomBgColorView;
+- (void)setUp;
 
 @end

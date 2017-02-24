@@ -21,6 +21,8 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self setUp];
 }
 
 - (RFView *)randomBgColorView {
@@ -32,5 +34,9 @@
     return view;
 }
 
+/**
+ overwrite
+ */
+- (void)setUp {};
 
 @end
