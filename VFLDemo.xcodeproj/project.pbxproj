@@ -28,6 +28,7 @@
 		0E4306F91E602479006A45AC /* RFEqualWidthsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4306F81E602479006A45AC /* RFEqualWidthsController.m */; };
 		0E4306FC1E602567006A45AC /* RFMultiplePredicatesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4306FB1E602567006A45AC /* RFMultiplePredicatesController.m */; };
 		0E4306FF1E60268A006A45AC /* RFCompleteLineLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4306FE1E60268A006A45AC /* RFCompleteLineLayoutController.m */; };
+		0E4307021E603EBE006A45AC /* RFLayoutAnchorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4307011E603EBE006A45AC /* RFLayoutAnchorController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,8 @@
 		0E4306FB1E602567006A45AC /* RFMultiplePredicatesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFMultiplePredicatesController.m; sourceTree = "<group>"; };
 		0E4306FD1E60268A006A45AC /* RFCompleteLineLayoutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFCompleteLineLayoutController.h; sourceTree = "<group>"; };
 		0E4306FE1E60268A006A45AC /* RFCompleteLineLayoutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFCompleteLineLayoutController.m; sourceTree = "<group>"; };
+		0E4307001E603EBE006A45AC /* RFLayoutAnchorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFLayoutAnchorController.h; sourceTree = "<group>"; };
+		0E4307011E603EBE006A45AC /* RFLayoutAnchorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFLayoutAnchorController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				0E4306FB1E602567006A45AC /* RFMultiplePredicatesController.m */,
 				0E4306FD1E60268A006A45AC /* RFCompleteLineLayoutController.h */,
 				0E4306FE1E60268A006A45AC /* RFCompleteLineLayoutController.m */,
+				0E4307001E603EBE006A45AC /* RFLayoutAnchorController.h */,
+				0E4307011E603EBE006A45AC /* RFLayoutAnchorController.m */,
 			);
 			path = "Example Controllers";
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 				0E4306A61E5ECCAE006A45AC /* AppDelegate.m in Sources */,
 				0E4306E01E5FE457006A45AC /* UIColor+RF_Extension.m in Sources */,
 				0E4306F01E601747006A45AC /* RFVerticalLayoutController.m in Sources */,
+				0E4307021E603EBE006A45AC /* RFLayoutAnchorController.m in Sources */,
 				0E4306F91E602479006A45AC /* RFEqualWidthsController.m in Sources */,
 				0E4306DC1E5FE361006A45AC /* RFBaseController.m in Sources */,
 				0E4306D61E5FDB6B006A45AC /* RFThirdController.m in Sources */,

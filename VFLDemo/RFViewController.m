@@ -62,7 +62,9 @@
              @{@"description":@"Multiple Predicates",
                @"class": @"RFMultiplePredicatesController"},
              @{@"description":@"A Complete Line of Layout",
-               @"class": @"RFCompleteLineLayoutController"}
+               @"class": @"RFCompleteLineLayoutController"},
+             @{@"description":@"NSLayoutAnchor Example",
+               @"class": @"RFLayoutAnchorController"}
              ];
     
 }
