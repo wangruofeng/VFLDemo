@@ -13,6 +13,13 @@
 		0E4306AC1E5ECCAE006A45AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4306AA1E5ECCAE006A45AC /* Main.storyboard */; };
 		0E4306AE1E5ECCAE006A45AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4306AD1E5ECCAE006A45AC /* Assets.xcassets */; };
 		0E4306B11E5ECCAE006A45AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4306AF1E5ECCAE006A45AC /* LaunchScreen.storyboard */; };
+		0E4306BE1E5FD835006A45AC /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4306BD1E5FD835006A45AC /* RFViewController.m */; };
+		0E4306D41E5FDB6B006A45AC /* RFFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4306CF1E5FDB6B006A45AC /* RFFirstController.m */; };
+		0E4306D51E5FDB6B006A45AC /* RFSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4306D11E5FDB6B006A45AC /* RFSecondController.m */; };
+		0E4306D61E5FDB6B006A45AC /* RFThirdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4306D31E5FDB6B006A45AC /* RFThirdController.m */; };
+		0E4306DC1E5FE361006A45AC /* RFBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4306DB1E5FE361006A45AC /* RFBaseController.m */; };
+		0E4306E01E5FE457006A45AC /* UIColor+RF_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4306DF1E5FE457006A45AC /* UIColor+RF_Extension.m */; };
+		0E4306E41E5FE4E8006A45AC /* RFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4306E31E5FE4E8006A45AC /* RFView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		0E4306AD1E5ECCAE006A45AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E4306B01E5ECCAE006A45AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E4306B21E5ECCAE006A45AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E4306BC1E5FD835006A45AC /* RFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
+		0E4306BD1E5FD835006A45AC /* RFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
+		0E4306CE1E5FDB6B006A45AC /* RFFirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFFirstController.h; sourceTree = "<group>"; };
+		0E4306CF1E5FDB6B006A45AC /* RFFirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFFirstController.m; sourceTree = "<group>"; };
+		0E4306D01E5FDB6B006A45AC /* RFSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFSecondController.h; sourceTree = "<group>"; };
+		0E4306D11E5FDB6B006A45AC /* RFSecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFSecondController.m; sourceTree = "<group>"; };
+		0E4306D21E5FDB6B006A45AC /* RFThirdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFThirdController.h; sourceTree = "<group>"; };
+		0E4306D31E5FDB6B006A45AC /* RFThirdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFThirdController.m; sourceTree = "<group>"; };
+		0E4306DA1E5FE361006A45AC /* RFBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFBaseController.h; sourceTree = "<group>"; };
+		0E4306DB1E5FE361006A45AC /* RFBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFBaseController.m; sourceTree = "<group>"; };
+		0E4306DE1E5FE457006A45AC /* UIColor+RF_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RF_Extension.h"; sourceTree = "<group>"; };
+		0E4306DF1E5FE457006A45AC /* UIColor+RF_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RF_Extension.m"; sourceTree = "<group>"; };
+		0E4306E21E5FE4E8006A45AC /* RFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFView.h; sourceTree = "<group>"; };
+		0E4306E31E5FE4E8006A45AC /* RFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +81,13 @@
 			children = (
 				0E4306A41E5ECCAE006A45AC /* AppDelegate.h */,
 				0E4306A51E5ECCAE006A45AC /* AppDelegate.m */,
+				0E4306BC1E5FD835006A45AC /* RFViewController.h */,
+				0E4306BD1E5FD835006A45AC /* RFViewController.m */,
 				0E4306A71E5ECCAE006A45AC /* ViewController.h */,
 				0E4306A81E5ECCAE006A45AC /* ViewController.m */,
-				0E4306AA1E5ECCAE006A45AC /* Main.storyboard */,
-				0E4306AD1E5ECCAE006A45AC /* Assets.xcassets */,
-				0E4306AF1E5ECCAE006A45AC /* LaunchScreen.storyboard */,
-				0E4306B21E5ECCAE006A45AC /* Info.plist */,
+				0E4306E11E5FE4CD006A45AC /* Views */,
+				0E4306CD1E5FDB6B006A45AC /* Example Controllers */,
+				0E4306DD1E5FE424006A45AC /* Category */,
 				0E4306A11E5ECCAE006A45AC /* Supporting Files */,
 			);
 			path = VFLDemo;
@@ -74,9 +96,46 @@
 		0E4306A11E5ECCAE006A45AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E4306AA1E5ECCAE006A45AC /* Main.storyboard */,
+				0E4306AD1E5ECCAE006A45AC /* Assets.xcassets */,
+				0E4306AF1E5ECCAE006A45AC /* LaunchScreen.storyboard */,
+				0E4306B21E5ECCAE006A45AC /* Info.plist */,
 				0E4306A21E5ECCAE006A45AC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E4306CD1E5FDB6B006A45AC /* Example Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E4306DA1E5FE361006A45AC /* RFBaseController.h */,
+				0E4306DB1E5FE361006A45AC /* RFBaseController.m */,
+				0E4306CE1E5FDB6B006A45AC /* RFFirstController.h */,
+				0E4306CF1E5FDB6B006A45AC /* RFFirstController.m */,
+				0E4306D01E5FDB6B006A45AC /* RFSecondController.h */,
+				0E4306D11E5FDB6B006A45AC /* RFSecondController.m */,
+				0E4306D21E5FDB6B006A45AC /* RFThirdController.h */,
+				0E4306D31E5FDB6B006A45AC /* RFThirdController.m */,
+			);
+			path = "Example Controllers";
+			sourceTree = "<group>";
+		};
+		0E4306DD1E5FE424006A45AC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0E4306DE1E5FE457006A45AC /* UIColor+RF_Extension.h */,
+				0E4306DF1E5FE457006A45AC /* UIColor+RF_Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0E4306E11E5FE4CD006A45AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E4306E21E5FE4E8006A45AC /* RFView.h */,
+				0E4306E31E5FE4E8006A45AC /* RFView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +210,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4306D51E5FDB6B006A45AC /* RFSecondController.m in Sources */,
+				0E4306D41E5FDB6B006A45AC /* RFFirstController.m in Sources */,
+				0E4306BE1E5FD835006A45AC /* RFViewController.m in Sources */,
 				0E4306A91E5ECCAE006A45AC /* ViewController.m in Sources */,
+				0E4306E41E5FE4E8006A45AC /* RFView.m in Sources */,
 				0E4306A61E5ECCAE006A45AC /* AppDelegate.m in Sources */,
+				0E4306E01E5FE457006A45AC /* UIColor+RF_Extension.m in Sources */,
+				0E4306DC1E5FE361006A45AC /* RFBaseController.m in Sources */,
+				0E4306D61E5FDB6B006A45AC /* RFThirdController.m in Sources */,
 				0E4306A31E5ECCAE006A45AC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +378,7 @@
 				0E4306B71E5ECCAE006A45AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
